@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "8000-luciotorelli-djangoblog-tzzw8bd8jvl.ws-eu101.gitpod.io", "localhost"]
+    "8000-luciotorelli-djangoblog-tzzw8bd8jvl.ws-eu101.gitpod.io", "localhost", "127.0.0.1"]
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
